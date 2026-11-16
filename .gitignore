@@ -5,6 +5,20 @@ __pycache__/
 
 # C extensions
 *.so
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Mac system files
+.DS_Store
+
+# IDE files
+.vscode/
 
 # Distribution / packaging
 .Python
@@ -218,3 +232,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local database
+library.db
+
+# Mac files
+.DS_Storegit rm -r --cached __pycache__
